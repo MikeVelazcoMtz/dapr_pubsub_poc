@@ -26,6 +26,8 @@ dapr init
 dapr run --app-port 8000 --app-id php-subscriber --app-protocol http --dapr-http-port 3500 --resources-path dapr
 ```
 
+> ℹ️ **VERY IMPORTANT:** `php -S localhost:8000 index.php` won't work because dapr is not able to detect the server from it. It should have something to do with the way the PHP built-in webserver works.
+
 # Endpoints available
 
 Use the postman collection to test it.
