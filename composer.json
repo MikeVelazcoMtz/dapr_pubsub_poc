@@ -1,0 +1,15 @@
+{
+    "name": "sparefoot/dapr_experiment",
+    "description": "Is a DAPR local experiment",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.0",
+        "guzzlehttp/psr7": "2.6.x-dev"
+    },
+    "authors": [
+        {
+            "name": "Miguel Angel Velazco Martinez"
+        }
+    ],
+    "minimum-stability": "dev"
+}

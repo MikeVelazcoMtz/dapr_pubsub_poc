@@ -1,0 +1,9 @@
+apiVersion: dapr.io/v1alpha1
+kind: Subscription
+metadata:
+  name: php-subscription
+spec:
+  topic: topic1
+  routes:
+    default: /orders
+  pubsubname: php-subscriber
