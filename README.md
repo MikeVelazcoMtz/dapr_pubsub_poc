@@ -17,7 +17,7 @@ Don't forget to do `chmod +x composer.phar` to add execution permisions to the b
 composer.phar install
 
 # Run php built-in PHP server
-php -S localhost:8000 index.php
+php -S 0.0.0.0:8000 index.php
 
 # (Optional) If you haven't made it already
 dapr init
