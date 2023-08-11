@@ -10,6 +10,7 @@ require __DIR__ . '/vendor/autoload.php';
  * In order for the factory to work you need to ensure you have installed
  * a supported PSR-7 implementation of your choice e.g.: Slim PSR-7 and a supported
  * ServerRequest creator (included with Slim PSR-7)
+ * @var $app \Slim\App
  */
 $app = AppFactory::create();
 
